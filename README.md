@@ -25,6 +25,11 @@ This project focuses on analyzing historical data from the NBA between 1946 and 
    source venv/bin/activate  # On Windows use `venv\\Scripts\\activate`
    pip install -r requirements.txt
    ```
+   
+## Dataset
+
+The dataset is provided in a compressed `.7z` file `(basketball.sqlite.7z)`. Please extract it using a tool like `7-Zip` and place the extracted `basketball.sqlite` file in the project directory before running the code.
+
 ## Usage
 
 1. Place the basketball.sqlite database file under the root directory or update db_path in the script.
