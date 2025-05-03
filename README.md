@@ -58,4 +58,5 @@ The dataset is provided in a compressed `.7z` file `(basketball.sqlite.7z)`. Ple
 
 ## License
 
-MIT License. See LICENSE for details.
+This project is licensed under the [**LICENSE**](https://opensource.org/licenses/MIT).
+
