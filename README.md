@@ -51,13 +51,10 @@ The dataset is provided in a compressed `.7z` file `(basketball.sqlite.7z)`. Ple
 
 ## Technologies
 
-   Python 3.x
-
-   SQLite for data storage and querying
-
-   Pandas for data manipulation
-
-   Plotly for interactive charts
+- Python 3.x
+- SQLite for data storage and querying
+- Pandas for data manipulation
+- Plotly for interactive charts
 
 ## License
 
