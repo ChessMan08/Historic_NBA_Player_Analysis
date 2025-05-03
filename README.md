@@ -1,9 +1,11 @@
 # Historic NBA Drafting, Game, and Player Analysis
 
 ## Project Overview
-This repository contains code for analyzing NBA draft history, game statistics, and player salary data using SQLite, Pandas, and Plotly. It provides interactive visualizations and statistical insights spanning 1946 to 2020.
+
+This project focuses on analyzing historical data from the NBA between 1946 and 2021, using a structured SQL database. The goal was to explore and visualize trends in NBA drafts, team performance, game outcomes, and player statistics. Key analyses include how many players were drafted each year, which teams have been most active in drafting, win percentages in home vs. away games, and how player performance and salaries relate. Data was extracted using SQL, cleaned and analyzed using Pandas, and visualized through interactive Plotly charts for better insights.
 
 ## Features
+
 - **Draft Trends**: Year-by-year player draft counts and team-wise drafting patterns.
 - **Source Breakdown**: Distribution of drafted players by origin (college, international, etc.).
 - **Game & Season Analysis**: Trends in number of teams/games per season; home vs. away win percentages.
