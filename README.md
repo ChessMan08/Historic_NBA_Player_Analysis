@@ -44,8 +44,8 @@ The dataset is provided in a compressed `.7z` file `(basketball.sqlite.7z)`. Ple
 ```bash
 ├── Historic_NBA_Player_Analysis.ipynb           # Main script containing SQL queries and Plotly visualizations
 ├── basketball.sqlite                            # SQLite database (not included)
-├── README.md
 ├── .gitignore                                   # Files and directories to ignore in Git
+├── README.md
 └── requirements.txt                             # Python dependencies
 ```
 
