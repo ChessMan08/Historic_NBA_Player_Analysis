@@ -71,7 +71,7 @@ The final project structure should look like this:
 
 This plot captures the dramatic evolution of the NBA draft over 71 years, highlighting several key trends.
 
-![Chart showing NBA Drafting trend from 1949 to 2020](./images/NBA_Drafting_Trend_1949_to_2020.png)
+![NBA Drafting trend from 1949 to 2020](./plot_images/NBA_Drafting_Trend_1949_to_2020.png)
 
 ---
 
@@ -79,15 +79,41 @@ This plot captures the dramatic evolution of the NBA draft over 71 years, highli
 
 This plot illustrates the overwhelming dominance of US colleges as the primary talent pipeline for the NBA draft.
 
-![NBA drafting trend by organisation](./images/NBA_drafting_trend_source.png)
+![NBA drafting trend by organisation](./plot_images/NBA_drafting_trend_source.png)
 
 ---
 
 ### NBA total team and total game play trend
 
-This plot illustrates the overwhelming dominance of US colleges as the primary talent pipeline for the NBA draft.
+This plot reveals two parallel growth stories in the NBA's history.
 
-![NBA total team and toatal game play trend](./images/NBA_total team_and_total game.png)
+It shows the total number of games played per season has risen dramatically, not only due to more teams but also from the standardization of the regular season to 82 games, a format that has remained the benchmark for decades.
+
+![NBA total team and toatal game play trend](./plot_images/NBA_total_team_and_total_game.png)
+
+---
+
+### Overall home game won percentage
+
+This plot illustrates the significant and consistent "home-court advantage" in the NBA. It shows that, across the league, home teams reliably win a clear majority of their games, a percentage that has remained remarkably stable over many seasons.
+
+![Overall home game won](./plot_images/Overall_home_game_won.png)
+
+---
+
+### Median of the teal level game won percentage by game location
+
+This plot breaks down team performance by location, showing that a typical (median) NBA team has a winning record at home and a losing record on the road. It visualizes the powerful home-court advantage by showing the stark contrast between the median home win percentage (well above 50%) and the median away win percentage (well below 50%)
+
+![median of game won by location](./plot_images/median_of_game_won_by_location.png)
+
+---
+
+### Top 10 high paying NBA team by average salary
+
+This chart ranks the NBA's biggest spenders, showcasing the top 10 teams by their average player salary. The list is typically dominated by "big market" franchises and ambitious teams willing to pay a premium (and often the luxury tax) to build a roster filled with superstar talent in pursuit of a championship.
+
+![Top 10 high paying NBA team](./plot_images/top_10_high_paying_NBA_team.png)
 
 ---
 
