@@ -46,6 +46,9 @@ The final project structure should look like this:
     ├── data/
     │   ├── Basketball.sqlite
     │   ├── Other_CSV_files...
+    ├── plot_images/
+    │   ├── NBA_Drafting_Trend_1949_to_2020.png
+    │   ├── Other_png_images...
     ├── SQL_Analysis/
     │   ├── Historic_NBA_Player_Analysis.ipynb
     ├── .gitignore
@@ -80,16 +83,6 @@ This plot captures the dramatic evolution of the NBA draft over 71 years, highli
 This plot illustrates the overwhelming dominance of US colleges as the primary talent pipeline for the NBA draft.
 
 ![NBA drafting trend by organisation](./plot_images/NBA_drafting_trend_source.png)
-
----
-
-### NBA total team and total game play trend
-
-This plot reveals two parallel growth stories in the NBA's history.
-
-It shows the total number of games played per season has risen dramatically, not only due to more teams but also from the standardization of the regular season to 82 games, a format that has remained the benchmark for decades.
-
-![NBA total team and toatal game play trend](./plot_images/NBA_total_team_and_total_game.png)
 
 ---
 
