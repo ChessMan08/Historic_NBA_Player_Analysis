@@ -22,7 +22,6 @@ This project focuses on analyzing historical data from the NBA between 1946 and 
 2. Create a virtual environment and install dependencies:
    ```bash
    python3 -m venv venv
-   source venv/bin/activate  # On Windows use `venv\\Scripts\\activate`
    pip install -r requirements.txt
    ```
    
@@ -47,9 +46,10 @@ The final project structure should look like this:
     ├── data/
     │   ├── Basketball.sqlite
     │   ├── Other_CSV_files...
-    ├── notebooks/
-    │   ├── your_analysis.ipynb
+    ├── SQL_Analysis/
+    │   ├── Historic_NBA_Player_Analysis.ipynb
     ├── .gitignore
+    ├── requirements.txt
     └── README.md
 
 ## Usage
