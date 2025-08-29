@@ -28,11 +28,11 @@ This project focuses on analyzing historical data from the NBA between 1946 and 
    
 ## Dataset
 
-The dataset is provided in a compressed `.7z` file `(basketball.sqlite.7z)`. Please extract it using a tool like `7-Zip` and place the extracted `basketball.sqlite` file in the project directory before running the code.
+The dataset is provided in a `.csv` file `(basketball.csv)`.
 
 ## Usage
 
-1. Place the basketball.sqlite database file under the root directory or update db_path in the script.
+1. Place the basketball.csv database file under the root directory or update db_path in the script.
 2. Run the analysis script:
    ```bash
    python Historic_NBA_Player_Analysis.ipynb
