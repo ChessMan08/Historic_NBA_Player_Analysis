@@ -61,6 +61,36 @@ The final project structure should look like this:
    ```
 3. Visualizations will open in your default web browser.
 
+## Visualizations & Results
+
+**Note:** The plots in the original Jupyter Notebook file may not render correctly on GitHub due to library updates. The key results and visualizations from the analysis are displayed below.
+
+---
+
+### NBA drafting trend from 1949 to 2020
+
+This plot captures the dramatic evolution of the NBA draft over 71 years, highlighting several key trends.
+
+![Chart showing NBA Drafting trend from 1949 to 2020](./images/NBA_Drafting_Trend_1949_to_2020.png)
+
+---
+
+### NBA drafting trend by source organisation type
+
+This plot illustrates the overwhelming dominance of US colleges as the primary talent pipeline for the NBA draft.
+
+![NBA drafting trend by organisation](./images/NBA_drafting_trend_source.png)
+
+---
+
+### NBA total team and total game play trend
+
+This plot illustrates the overwhelming dominance of US colleges as the primary talent pipeline for the NBA draft.
+
+![NBA total team and toatal game play trend](./images/NBA_total team_and_total game.png)
+
+---
+
 ## Technologies
 
 - Python 3.x
