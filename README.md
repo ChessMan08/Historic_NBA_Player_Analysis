@@ -28,26 +28,38 @@ This project focuses on analyzing historical data from the NBA between 1946 and 
    
 ## Dataset
 
-The dataset is provided in a `.csv` file `(basketball.csv)`.
+This project uses the "Basketball Dataset" from Kaggle, which includes player stats, team data, game information, and more.
+
+The dataset is approximately **4.66 GB** and is therefore not included in this repository.
+
+### Setup Instructions
+
+1.  **Download the Dataset:**
+    * Go to the Kaggle dataset page: [https://www.kaggle.com/datasets/wyattowalsh/basketball](https://www.kaggle.com/datasets/wyattowalsh/basketball)
+    * Click "Download" to get the `archive.zip` file.
+
+2.  **Place the Dataset:**
+    * Create a folder named `dataset` in the root directory of this project.
+    * Unzip the `archive.zip` file and place all its contents directly inside the `dataset` folder.
+
+The final project structure should look like this:
+
+    ├── data/
+    │   ├── Basketball.sqlite
+    │   ├── Other_CSV_files...
+    ├── notebooks/
+    │   ├── your_analysis.ipynb
+    ├── .gitignore
+    └── README.md
 
 ## Usage
 
-1. Place the basketball.csv database file under the root directory or update db_path in the script.
+1. Place the basketball.sqlite database file under the root directory or update db_path in the script.
 2. Run the analysis script:
    ```bash
    python Historic_NBA_Player_Analysis.ipynb
    ```
 3. Visualizations will open in your default web browser.
-
-## File Structure
-
-```bash
-├── Dataset                                      # SQLite database 
-├── SQL_Analysis                                 # Main script containing SQL queries and Plotly visualizations
-├── .gitignore                                   # Files and directories to ignore in Git
-├── README.md
-└── requirements.txt                             # Python dependencies
-```
 
 ## Technologies
 
